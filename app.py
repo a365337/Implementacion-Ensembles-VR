@@ -20,7 +20,7 @@ def main ():
     # Se carga el modelo a utilizar
     modelo = joblib.load("modelo_entrenado.pkl")
 
-    st.title("Aplicación EndToEnd")
+    st.title("Implementación de VR para predicción de precio de BTC")
     st.write("Nombre: Jared Alejandro Rosas Molina")
     st.write("Matricula: 365337")
 # Se le pide al usuario que ingrese los datos necesarios para la predicción
