@@ -8,7 +8,7 @@ import pandas as pd
 
 # Se asigna la ruta del archivo, en este caso esta en la misma carpeta entonces solo es necesario
 # asignarle el nombre.
-MODEL_PATH = "modelo_entrenado.pkl"
+#MODEL_PATH = "modelo_entrenado.pkl"
 
 #Se hacen las predicciones del modelo
 def predicciones(x, model):
@@ -18,7 +18,7 @@ def predicciones(x, model):
 
 def main ():
     # Se carga el modelo a utilizar
-    modelo = joblib.load(MODEL_PATH)
+    modelo = joblib.load("modelo_entrenado.pkl")
 
     st.title("Aplicación EndToEnd")
     st.write("Nombre: Jared Alejandro Rosas Molina")
